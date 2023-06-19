@@ -1,0 +1,31 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.slick-dots li {
+  width: 8px !important;
+  height: 8px !important;
+  margin: 0 4px 0 0;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active {
+  background: #C4E4FF;
+  border-color: #C4E4FF;
+}
+
+.slick-dots li:hover {
+  background: #C4E4FF;
+  border-color: #C4E4FF;
+}
+
+.slick-dots li button:before {
+  display: none;
+}
+
+.slick-slider button.slick-next {
+  right: -15px !important;
+}
+
+.slick-slider button.slick-prev {
+  left: -15px !important;
+}

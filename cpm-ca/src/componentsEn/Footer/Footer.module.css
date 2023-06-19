@@ -1,0 +1,21 @@
+
+@media (min-width: 768px) {
+    .FooterLinksWrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff
+    }
+}
+
+@media (max-width: 767px) {
+    .UlLinks {
+        justify-content: center;
+        font-size: 0.9rem;
+    }
+
+    .FooterImage {
+        margin: auto;
+    }
+}
+
