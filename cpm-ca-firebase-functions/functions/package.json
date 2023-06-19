@@ -1,0 +1,29 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "login": "firebase login",
+    "list": "firebase projects:list"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.0.0",
+    "firebase-functions": "^3.0.0",
+    "hogan.js": "^3.0.2",
+    "moment-timezone": "^0.5.25"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.1.6"
+  },
+  "private": true
+}

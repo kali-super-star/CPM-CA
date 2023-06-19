@@ -1,0 +1,66 @@
+.Button {
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-weight: 400;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.Button:focus {
+    outline: 0 !important;
+}
+
+.Primary {
+    border: 1px solid #4cae4c;
+    background-color: #4cae4c;
+    color: #fff;
+}
+
+.Primary:hover, .Primary:focus {
+    border: 1px solid #398439;
+    background-color: #398439;
+}
+
+.PrimaryButtonLoading {
+    border: 1px solid #96d696;
+    background-color: #96d696;
+    color: #ffffff;
+    cursor: progress;
+}
+.PrimaryButtonDisabled {
+    border: 1px solid #96d696;
+    background-color: #96d696;
+    color: #ffffff;
+    cursor: not-allowed;
+}
+
+
+.Secondary {
+    border: 1px solid #FF7F00;
+    background-color: #FF7F00;
+    color: #fff;
+}
+
+.Secondary:hover, .Secondary:focus {
+    border: 1px solid #c56300;
+    background-color: #c56300;
+}
+
+
+.Transparent {
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.Transparent:hover {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #1689DF;
+}
